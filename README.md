@@ -1,10 +1,10 @@
 # KPPTR-hardware
 
-Welcome to the KPPTR-hardware repository! This repository contains the design files for the hardware components used in the KPPTR project. The design files have been created using KiCad 6.0, a powerful open-source electronics design automation suite.
+Welcome to the KPPTR-hardware repository! This repository contains the design files for the hardware components used in the KPPTR project. The design files have been created using KiCad 10.0, a powerful open-source electronics design automation suite.
 
 ## Project Overview
 
-The design files in this repository correspond to the hardware components that make up the KPPTR project, which enhances the capabilities of DIY amateur rockets and high-altitude balloons. The design files have been crafted using KiCad 6.0, a popular and user-friendly tool for creating electronic schematics and PCB layouts. Both hardware and sofware were developed by PTR member!
+The design files in this repository correspond to the hardware components that make up the KPPTR project, which enhances the capabilities of DIY amateur rockets and high-altitude balloons. The design files have been crafted using KiCad 10.0, a popular and user-friendly tool for creating electronic schematics and PCB layouts. Both hardware and sofware were developed by PTR member!
 
 ## Design Files
 
@@ -19,7 +19,7 @@ The repository includes design files for the various hardware components used in
 To access and work with the design files, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install [KiCad 6.0](https://www.kicad.org/download/) if you haven't already.
+2. Install [KiCad 10.0](https://www.kicad.org/download/) if you haven't already.
 3. Open the KiCad project files (`.pro` files) in the appropriate subdirectories to access the schematics and PCB layouts.
 
 Feel free to explore the design files and customize them to suit your specific needs. If you make any improvements or modifications to the hardware designs, consider contributing back to the repository to help the community.
