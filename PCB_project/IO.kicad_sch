@@ -5,9 +5,9 @@
 	(uuid "097ac9c3-1a7f-4099-a0e7-cf3c8a7371fb")
 	(paper "A4")
 	(title_block
-		(title "KP-PTR")
-		(date "2023-12-10")
-		(rev "1.1")
+		(title "KP-PTR project - PTR_mini")
+		(date "2026-09-17")
+		(rev "1.0")
 		(company "Polskie Towarzystwo Rakietowe")
 		(comment 1 "bartekM, FlyingBanana, Kretu, Red Labs, Stachu M, U.S. air force i inni")
 	)
