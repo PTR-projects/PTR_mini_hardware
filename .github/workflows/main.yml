@@ -26,17 +26,17 @@ jobs:
     - name: Upload schematic
       uses: actions/upload-artifact@v7
       with:
-        path: ./build/schematic.pdf
+        path: ./schematic.pdf
         archive: false
   
     - name: Upload gerbers and drill file
       uses: actions/upload-artifact@v7
       with:
         name: Gerbers
-        path: ./build/gerbers
+        path: ./gerbers
   
     - name: Upload image render
       uses: actions/upload-artifact@v7
       with:
-        path: ./build/pcb.png
+        path: ./pcb.png
         archive: false
