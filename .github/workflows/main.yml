@@ -12,7 +12,7 @@ jobs:
     - name: Run KiCad actions
       uses: actions-for-kicad/kicad-actions@v2-k10.0
       with:
-        schematic_file_name: ./PCD_project/kp-ptr.kicad_sch
+        schematic_file_name: ./PCB_project/kp-ptr.kicad_sch
         symbol_libraries: "symbol-library=./symbol-library.kicad_sym"
         run_erc: true
         schematic_output_pdf: true
