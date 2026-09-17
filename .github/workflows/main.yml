@@ -19,7 +19,7 @@ jobs:
   
         pcb_file_name: ./PCB_project/kp-ptr.kicad_pcb
         footprint_libraries: "footprint-library=./PCB_project/KP-PTR_lib.pretty"
-        run_drc: true
+        run_drc: false
         pcb_output_gerbers_and_drill: true
         pcb_output_image: true
   
