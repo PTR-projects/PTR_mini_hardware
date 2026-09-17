@@ -18,3 +18,4 @@ fp-info-cache
 *.ses
 kp-ptr-backups
 /kp-ptr/kp-ptr_step.7z
+.history
