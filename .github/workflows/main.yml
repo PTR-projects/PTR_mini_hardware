@@ -2,7 +2,7 @@ name: Build PlatformIO project
 on:
   push
   
- jobs:
+jobs:
  steps:
   - name: Checkout Repository
     uses: actions/checkout@v6
