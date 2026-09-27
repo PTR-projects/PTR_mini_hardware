@@ -3833,7 +3833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "10nF"
 			(at 112.776 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,7 +5240,7 @@
 		(fields_autoplaced yes)
 		(uuid "814893a8-2bf5-4f5e-b499-9964c8084e05")
 		(property "Reference" "U10"
-			(at 139.7 88.265 0)
+			(at 139.7 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5249,8 +5249,8 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
-			(at 139.7 90.805 0)
+		(property "Value" "AMS1117-5.0"
+			(at 139.7 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6134,7 +6134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.9148 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6283,7 +6283,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n 16V"
+		(property "Value" "100nF 16V"
 			(at 106.68 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +6364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 44.45 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -8,7 +8,7 @@
       "Earth",
       "+3V3"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -47,7 +47,7 @@
       "zones",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_575555f5",
+    "visible_layers": "00000000_00000000_55555555_575555d5",
     "zone_display_mode": 1
   },
   "git": {

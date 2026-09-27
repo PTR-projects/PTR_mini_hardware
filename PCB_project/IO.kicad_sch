@@ -2499,6 +2499,12 @@
 		(uuid "803dbf0c-6668-4994-aee3-cae3d0e0a9a5")
 	)
 	(junction
+		(at 243.84 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae69eea8-a896-48be-8256-84f7ef3c27d9")
+	)
+	(junction
 		(at 243.84 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2509,6 +2515,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46bc499-c160-443a-b6d7-e2b107f626bb")
+	)
+	(junction
+		(at 243.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe381c80-1d82-4c02-a6f4-c45f040a5faf")
 	)
 	(no_connect
 		(at 166.37 29.21)
@@ -2533,6 +2545,16 @@
 			(type default)
 		)
 		(uuid "094c7f99-4010-4d1a-869c-7258f3fc6eb5")
+	)
+	(wire
+		(pts
+			(xy 243.84 76.2) (xy 251.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc40546-1b03-4f05-aeef-09b31a1fa33f")
 	)
 	(wire
 		(pts
@@ -2573,6 +2595,16 @@
 			(type default)
 		)
 		(uuid "2195146d-84cb-423c-aae4-7d22f9ccb29b")
+	)
+	(wire
+		(pts
+			(xy 243.84 76.2) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232b1d8e-1d5d-4cc2-ab45-22173ca1a481")
 	)
 	(polyline
 		(pts
@@ -2616,13 +2648,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 86.36) (xy 245.11 88.9)
+			(xy 238.76 86.36) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48eaff94-f69b-42fc-9be4-a82959f3da28")
+	)
+	(wire
+		(pts
+			(xy 243.84 88.9) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba66468-a8b3-402b-b342-256fe5d785d1")
 	)
 	(wire
 		(pts
@@ -2656,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 88.9) (xy 251.46 88.9)
+			(xy 238.76 88.9) (xy 243.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 245.11 76.2)
+			(xy 238.76 78.74) (xy 238.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 76.2) (xy 251.46 76.2)
+			(xy 238.76 76.2) (xy 243.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2843,6 +2885,16 @@
 			(type dash)
 		)
 		(uuid "fdb60dc7-88a2-40aa-b49e-a84e18318f95")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe700c3a-8fc0-4eba-ba8f-743ff361abfc")
 	)
 	(wire
 		(pts
@@ -3373,7 +3425,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c4d2f52-e408-46ad-be0f-4c3886bacf3a")
 		(property "Reference" "LS1"
-			(at 255.27 80.7376 0)
+			(at 255.27 81.1542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3383,8 +3435,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CBT-09427-SMT"
-			(at 255.27 83.2776 0)
+		(property "Value" "GMD0955YB-3V2700"
+			(at 255.27 83.6942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3500,6 +3552,84 @@
 			(project "kp-ptr"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/68d9bec4-a8fa-482b-99d8-a42578238d37"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e7908d3-1f86-4159-b268-020e9e8289c2")
+		(property "Reference" "R44"
+			(at 241.3 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 246.38 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.062 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "656c868e-fdc2-4da8-a1ab-374ce6ee1e8f")
+		)
+		(pin "2"
+			(uuid "981dfe68-50f1-4a8b-acd5-1845406d23ba")
+		)
+		(instances
+			(project "kp-ptr"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/68d9bec4-a8fa-482b-99d8-a42578238d37"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4584,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 245.11 82.55 270)
+		(at 238.76 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4464,7 +4594,7 @@
 		(dnp no)
 		(uuid "7ce41ce7-c75a-41c5-8336-99ccda654953")
 		(property "Reference" "D14"
-			(at 234.95 81.28 90)
+			(at 228.6 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4475,7 +4605,7 @@
 			)
 		)
 		(property "Value" "B5819W SL"
-			(at 232.41 84.074 90)
+			(at 226.06 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4486,7 +4616,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 240.665 82.55 0)
+			(at 234.315 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4627,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 245.11 82.55 0)
+			(at 238.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 82.55 0)
+			(at 238.76 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

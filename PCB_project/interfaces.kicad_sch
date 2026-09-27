@@ -420,19 +420,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -10.16 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Reference" "J4"
+				(at 10.16 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -442,7 +431,18 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "USB_C_Receptacle_USB2.0"
+				(at 10.16 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "KP-PTR_lib:USB_C_16P_SMD_USB4105-GF-A"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -464,11 +464,10 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -812,8 +811,8 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_1_1"
 				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
+					(at 0 -25.4 90)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -821,7 +820,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "A1B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -839,7 +838,7 @@
 							)
 						)
 					)
-					(number "A4"
+					(number "A4B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -920,27 +919,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
+					(at 0 -25.4 90)
+					(length 7.62)
 					(hide yes)
 					(name "GND"
 						(effects
@@ -949,26 +929,7 @@
 							)
 						)
 					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
+					(number "B1A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -987,7 +948,7 @@
 							)
 						)
 					)
-					(number "B4"
+					(number "B4A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1068,46 +1029,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
+					(at -7.62 -25.4 90)
+					(length 7.62)
 					(name "SHIELD"
 						(effects
 							(font
@@ -1115,7 +1038,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2997,6 +2920,16 @@
 		)
 		(uuid "441debfa-3bad-4b03-988c-4694bf935d85")
 	)
+	(wire
+		(pts
+			(xy 90.17 26.67) (xy 91.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443c39b7-97cf-4db3-9aa2-5661f29d4490")
+	)
 	(polyline
 		(pts
 			(xy 44.45 100.33) (xy 109.855 100.33)
@@ -3791,7 +3724,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 91.44 26.67 0)
+		(at 90.17 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3802,7 +3735,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dc485c2-a5e4-4981-b245-6e2aca26d21f")
 		(property "Reference" "#PWR0126"
-			(at 91.44 30.48 0)
+			(at 90.17 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3746,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 91.44 21.59 0)
+			(at 90.17 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3823,7 +3756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 26.67 0)
+			(at 90.17 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,7 +3767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 26.67 0)
+			(at 90.17 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3845,7 +3778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 26.67 0)
+			(at 90.17 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3868,7 +3801,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 114.3 64.77 0)
+		(at 114.3 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3879,7 +3812,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fff6474-a6e1-49ad-97e8-ed40c07a4678")
 		(property "Reference" "#PWR0138"
-			(at 114.3 71.12 0)
+			(at 114.3 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +3823,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 114.3 68.58 0)
+			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +3834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 64.77 0)
+			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +3845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 64.77 0)
+			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,7 +3856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 64.77 0)
+			(at 114.3 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4261,7 +4194,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 106.68 64.77 0)
+		(at 106.68 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4272,7 +4205,7 @@
 		(fields_autoplaced yes)
 		(uuid "493f1ff9-87c7-45ca-a71a-827aeec942db")
 		(property "Reference" "#PWR0137"
-			(at 106.68 71.12 0)
+			(at 106.68 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4216,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 106.68 68.58 0)
+			(at 106.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 64.77 0)
+			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 64.77 0)
+			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4316,7 +4249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 64.77 0)
+			(at 106.68 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4909,7 +4842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.8752 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6749,7 +6682,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "USB4105-GF-A-120"
 			(at 96.52 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,7 +6693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KP-PTR_lib:USB_C_213716"
+		(property "Footprint" "KP-PTR_lib:USB_C_16P_SMD_USB4105-GF-A"
 			(at 102.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6792,13 +6725,13 @@
 				)
 			)
 		)
-		(pin "A1"
+		(pin "B1A12"
 			(uuid "1f6c4695-233d-4a28-b637-5b2710623686")
 		)
-		(pin "A12"
+		(pin "SH"
 			(uuid "27711370-8fec-4574-89f4-cf34321a78fe")
 		)
-		(pin "A4"
+		(pin "A1B12"
 			(uuid "a70d7cd3-4a18-4c84-b0d7-217da5b8a692")
 		)
 		(pin "A5"
@@ -6813,17 +6746,11 @@
 		(pin "A8"
 			(uuid "d4fa4f63-1e1f-466a-8cb0-65e0e9c01420")
 		)
-		(pin "A9"
+		(pin "A4B9"
 			(uuid "83112730-7db5-4b68-a717-5f2ce999bd6f")
 		)
-		(pin "B1"
+		(pin "B4A9"
 			(uuid "a2d496db-7a13-4b2c-ae2a-a6ac02d830d7")
-		)
-		(pin "B12"
-			(uuid "b6a3ecf7-5851-48f7-b279-e443f8fb3434")
-		)
-		(pin "B4"
-			(uuid "92689a13-13b3-4b9a-a2d7-c1c8f38ac1ca")
 		)
 		(pin "B5"
 			(uuid "897aa3df-1eb5-4cbd-af69-7787c1a49ac2")
@@ -6836,12 +6763,6 @@
 		)
 		(pin "B8"
 			(uuid "d8cbbf63-cfe8-4055-b07b-1b37b116e1f0")
-		)
-		(pin "B9"
-			(uuid "b4a9dc3b-b87f-429f-8d20-37e363f58562")
-		)
-		(pin "S1"
-			(uuid "b766c497-198e-4acb-9a56-ff566448f4fd")
 		)
 		(instances
 			(project "kp-ptr"
