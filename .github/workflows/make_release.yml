@@ -7,14 +7,12 @@ on:
     paths:
       - "PCB_project/**"
       - "symbol-library.kicad_sym"
-      - ".github/workflows/build-kicad.yml"
+      - ".github/workflows/make_release.yml"
   pull_request:
     paths:
       - "PCB_project/**"
       - "symbol-library.kicad_sym"
   workflow_dispatch:
-  schedule:
-    - cron: "0 5 * * 1"   # weekly rebuild to catch upstream KiCad image changes
 
 # Cancel superseded runs on the same branch/PR
 concurrency:
@@ -27,7 +25,7 @@ permissions:
 env:
   SCH: ./PCB_project/kp-ptr.kicad_sch
   PCB: ./PCB_project/kp-ptr.kicad_pcb
-  SYM_LIBS: "symbol-library=./symbol-library.kicad_sym"
+  SYM_LIBS: "symbol-library=./PCB_project/KP-PTR_lib.kicad_sym"
   FP_LIBS: "footprint-library=./PCB_project/KP-PTR_lib.pretty"
 
 jobs:
@@ -118,7 +116,8 @@ jobs:
       - name: Upload schematic
         uses: actions/upload-artifact@v7
         with:
-          path: ./schematic.pdf
+          name: Schematic
+          path: ./schematic_PTR-mini.pdf
           archive: false
 
       - name: Upload gerbers and drill file
