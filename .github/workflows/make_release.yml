@@ -1,0 +1,162 @@
+name: Build KiCad project
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths:
+      - "PCB_project/**"
+      - "symbol-library.kicad_sym"
+      - ".github/workflows/build-kicad.yml"
+  pull_request:
+    paths:
+      - "PCB_project/**"
+      - "symbol-library.kicad_sym"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * 1"   # weekly rebuild to catch upstream KiCad image changes
+
+# Cancel superseded runs on the same branch/PR
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  SCH: ./PCB_project/kp-ptr.kicad_sch
+  PCB: ./PCB_project/kp-ptr.kicad_pcb
+  SYM_LIBS: "symbol-library=./symbol-library.kicad_sym"
+  FP_LIBS: "footprint-library=./PCB_project/KP-PTR_lib.pretty"
+
+jobs:
+  checks:
+    name: ERC / DRC
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      # Non-blocking for now (matches your old run_erc/run_drc: false behaviour).
+      # Once the design is clean, remove `continue-on-error` to make it a real gate.
+      - name: Run ERC and DRC
+        id: checks
+        continue-on-error: true
+        uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          schematic_file_name: ${{ env.SCH }}
+          symbol_libraries: ${{ env.SYM_LIBS }}
+          run_erc: true
+          pcb_file_name: ${{ env.PCB }}
+          footprint_libraries: ${{ env.FP_LIBS }}
+          run_drc: true
+
+      - name: Upload ERC/DRC reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: ERC-DRC-reports
+          path: |
+            ./*erc*.rpt
+            ./*drc*.rpt
+            ./*erc*.json
+            ./*drc*.json
+          if-no-files-found: ignore
+
+      - name: Summarize
+        if: always()
+        run: |
+          if [ "${{ steps.checks.outcome }}" = "failure" ]; then
+            echo "### :warning: ERC/DRC reported violations" >> "$GITHUB_STEP_SUMMARY"
+            echo "Download the **ERC-DRC-reports** artifact for details." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### :white_check_mark: ERC/DRC clean" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  build:
+    name: Build outputs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Run KiCad actions
+        uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          schematic_file_name: ${{ env.SCH }}
+          symbol_libraries: ${{ env.SYM_LIBS }}
+          run_erc: false
+          schematic_output_pdf: true
+
+          pcb_file_name: ${{ env.PCB }}
+          footprint_libraries: ${{ env.FP_LIBS }}
+          run_drc: false
+          pcb_output_gerbers_and_drill: true
+          pcb_output_image: true
+
+      # Give release files a version-stamped name: v1.2.0 for tags, short SHA otherwise
+      - name: Prepare release files
+        run: |
+          VERSION="${GITHUB_REF_NAME}"
+          if [[ "${GITHUB_REF}" != refs/tags/* ]]; then VERSION="${GITHUB_SHA::7}"; fi
+          echo "VERSION=${VERSION}" >> "$GITHUB_ENV"
+
+          mkdir -p dist
+          cp schematic.pdf "dist/PTR_mini_schematic_${VERSION}.pdf"
+          cp pcb.png "dist/PTR_mini_pcb_${VERSION}.png"
+          (cd gerbers && zip -r "../dist/PTR_mini_gerbers_${VERSION}.zip" .)
+
+          # Ready-made JLCPCB production files committed in the repo
+          if [ -d jlc ] && [ -n "$(ls -A jlc)" ]; then
+            (cd jlc && zip -r "../dist/PTR_mini_jlc_${VERSION}.zip" .)
+          else
+            echo "::error::jlc/ directory is missing or empty"
+            exit 1
+          fi
+
+      - name: Upload schematic
+        uses: actions/upload-artifact@v7
+        with:
+          path: ./schematic.pdf
+          archive: false
+
+      - name: Upload gerbers and drill file
+        uses: actions/upload-artifact@v7
+        with:
+          name: Gerbers
+          path: ./gerbers
+          if-no-files-found: error
+
+      - name: Upload image render
+        uses: actions/upload-artifact@v7
+        with:
+          path: ./pcb.png
+          archive: false
+
+      - name: Upload release bundle
+        uses: actions/upload-artifact@v7
+        with:
+          name: release-files
+          path: ./dist
+          if-no-files-found: error
+
+  release:
+    name: Publish GitHub Release
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [checks, build]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download release files
+        uses: actions/download-artifact@v7
+        with:
+          name: release-files
+          path: dist
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true
