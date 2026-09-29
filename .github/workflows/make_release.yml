@@ -3,11 +3,6 @@ name: Build KiCad project
 on:
   workflow_dispatch:
 
-env:
-  SCH: ./PCB_project/kp-ptr.kicad_sch
-  PCB: ./PCB_project/kp-ptr.kicad_pcb
-  SYM_LIBS: "symbol-library=./PCB_project/KP-PTR_lib.kicad_sym"
-  FP_LIBS: "footprint-library=./PCB_project/KP-PTR_lib.pretty"
 
   
   
