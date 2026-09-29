@@ -3,13 +3,6 @@ name: Build KiCad project
 on:
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
-permissions:
-  contents: read
-
 env:
   SCH: ./PCB_project/kp-ptr.kicad_sch
   PCB: ./PCB_project/kp-ptr.kicad_pcb
