@@ -36,7 +36,7 @@ env:
   SYM_LIBS: "symbol-library=./PCB_project/KP-PTR_lib.kicad_sym"
   FP_LIBS: "footprint-library=./PCB_project/KP-PTR_lib.pretty"
   
-  
+
 jobs:
   checks:
     name: ERC / DRC
@@ -115,10 +115,10 @@ jobs:
           (cd gerbers && zip -r "../dist/PTR_mini_gerbers_${VERSION}.zip" .)
 
           # Ready-made JLCPCB production files committed in the repo
-          if [ -d jlc ] && [ -n "$(ls -A jlc)" ]; then
-            (cd jlc && zip -r "../dist/PTR_mini_jlc_${VERSION}.zip" .)
+          if [ -d PCB_project/jlcpcb ] && [ -n "$(ls -A PCB_project/jlcpcb)" ]; then
+            (cd PCB_project/jlcpcb && zip -r "../../dist/PTR_mini_jlcpcb_${VERSION}.zip" .)
           else
-            echo "::error::jlc/ directory is missing or empty"
+            echo "::error::PCB_project/jlcpcb/ directory is missing or empty"
             exit 1
           fi
 
@@ -162,7 +162,7 @@ jobs:
         with:
           name: release-files
           path: dist
-  
+   
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
