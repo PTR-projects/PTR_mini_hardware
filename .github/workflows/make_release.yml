@@ -1,7 +1,25 @@
 name: Build KiCad project
 
 on:
-  push
+  workflow_dispatch:
+    inputs:
+      releaseTag:
+        required: true
+        type: string
+        description: 'Release tag'
+      releaseTitle:
+        required: true
+        type: string
+        description: 'Release title'
+      releaseDescription:
+        required: true
+        type: string
+        description: 'Release description'
+      releasePreRelease:
+        required: false
+        type: boolean
+        default: false
+        description: 'Is this a prerelease?'
 
 # Cancel superseded runs on the same branch/PR
 concurrency:
@@ -86,7 +104,7 @@ jobs:
       # Give release files a version-stamped name: v1.2.0 for tags, short SHA otherwise
       - name: Prepare release files
         run: |
-          VERSION="${GITHUB_REF_NAME}"
+          VERSION="${{ github.event.inputs.releaseTag }}"
           if [[ "${GITHUB_REF}" != refs/tags/* ]]; then VERSION="${GITHUB_SHA::7}"; fi
           echo "VERSION=${VERSION}" >> "$GITHUB_ENV"
 
@@ -133,7 +151,6 @@ jobs:
 
   release:
     name: Publish GitHub Release
-    if: startsWith(github.ref, 'refs/tags/v')
     needs: [checks, build]
     runs-on: ubuntu-latest
     permissions:
@@ -144,9 +161,12 @@ jobs:
         with:
           name: release-files
           path: dist
-
+  
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ github.event.inputs.releaseTag }}
+          name: ${{ github.event.inputs.releaseTitle }}
+          body: ${{ github.event.inputs.releaseDescription }}
+          prerelease: ${{ github.event.inputs.releasePreRelease }}
           files: dist/*
-          generate_release_notes: true
