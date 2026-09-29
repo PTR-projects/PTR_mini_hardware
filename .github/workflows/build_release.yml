@@ -1,7 +1,6 @@
 name: Build KiCad project
 
 on:
-  pull_request:
   workflow_dispatch:
     inputs:
       releaseTag:
