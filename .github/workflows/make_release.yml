@@ -1,17 +1,6 @@
 name: Build KiCad project
 
 on:
-  push:
-    branches: [main]
-    tags: ["v*"]
-    paths:
-      - "PCB_project/**"
-      - "PCB_project/symbol-library.kicad_sym"
-      - ".github/workflows/make_release.yml"
-  pull_request:
-    paths:
-      - "PCB_project/**"
-      - "symbol-library.kicad_sym"
   workflow_dispatch:
 
 # Cancel superseded runs on the same branch/PR
@@ -130,6 +119,7 @@ jobs:
       - name: Upload image render
         uses: actions/upload-artifact@v7
         with:
+          name: PCB-Image
           path: ./pcb.png
           archive: false
 
