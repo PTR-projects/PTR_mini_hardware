@@ -6,7 +6,7 @@ on:
     tags: ["v*"]
     paths:
       - "PCB_project/**"
-      - "symbol-library.kicad_sym"
+      - "PCB_project/symbol-library.kicad_sym"
       - ".github/workflows/make_release.yml"
   pull_request:
     paths:
@@ -117,7 +117,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: Schematic
-          path: ./schematic_PTR-mini.pdf
+          path: ./schematic.pdf
           archive: false
 
       - name: Upload gerbers and drill file
