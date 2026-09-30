@@ -3487,7 +3487,7 @@
 			(uuid "f62c1168-ed92-4cba-8390-aa3a58cbfcef")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "R32")
 					(unit 1)
@@ -3564,7 +3564,7 @@
 			(uuid "c4b7f0c4-a854-4eae-9b88-302c202f112f")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0117")
 					(unit 1)
@@ -3643,7 +3643,7 @@
 			(uuid "488d2aab-64ec-4777-921e-950d55f7ae15")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0125")
 					(unit 1)
@@ -3722,7 +3722,7 @@
 			(uuid "a0336788-44be-4f59-9ef5-8939f5d81d87")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0116")
 					(unit 1)
@@ -3802,7 +3802,7 @@
 			(uuid "ce5186f5-099e-4aa0-aa96-d986ac8e2e9d")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "J2")
 					(unit 1)
@@ -3883,7 +3883,7 @@
 			(uuid "5f5892d8-443b-4ecc-8388-d20a3912276a")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C45")
 					(unit 1)
@@ -3960,7 +3960,7 @@
 			(uuid "9ff7ccfa-f0ed-4371-a822-b918e8d6ae43")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0121")
 					(unit 1)
@@ -4037,7 +4037,7 @@
 			(uuid "2bc77d70-8daf-4929-9f10-c37e27609ff0")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR093")
 					(unit 1)
@@ -4113,7 +4113,7 @@
 			(uuid "6ed90c71-ee93-4ec8-a873-e603b1de4c6e")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR099")
 					(unit 1)
@@ -4192,7 +4192,7 @@
 			(uuid "40067db5-c687-4186-8d4a-c77c82c7e2ed")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0124")
 					(unit 1)
@@ -4271,7 +4271,7 @@
 			(uuid "7e478b3b-b852-4799-96e4-84198f30bbd3")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0122")
 					(unit 1)
@@ -4349,7 +4349,7 @@
 			(uuid "0c3f858e-0d44-4ec7-8039-a68f53b00510")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0202")
 					(unit 1)
@@ -4428,7 +4428,7 @@
 			(uuid "25c219af-6dfe-4783-991f-a0ee4aaa0a10")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0123")
 					(unit 1)
@@ -4506,7 +4506,7 @@
 			(uuid "a60c926f-2482-42e0-93af-a615009642f6")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "R33")
 					(unit 1)
@@ -4582,7 +4582,7 @@
 			(uuid "3deda532-26bf-4d9b-87ee-61777123acfc")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0227")
 					(unit 1)
@@ -4661,7 +4661,7 @@
 			(uuid "cf8a3774-faa1-44e1-9467-5e85f1c98818")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "D3")
 					(unit 1)
@@ -4740,7 +4740,7 @@
 			(uuid "a5ecbc50-f435-48ea-bb46-b65130f7f6f4")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0120")
 					(unit 1)
@@ -4821,7 +4821,7 @@
 			(uuid "11e80ae8-528b-45f9-9554-0becef5b0187")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C67")
 					(unit 1)
@@ -4902,7 +4902,7 @@
 			(uuid "fabcf215-9a6d-4284-bc33-147a023ddb8c")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C42")
 					(unit 1)
@@ -4978,7 +4978,7 @@
 			(uuid "a4f181df-5a9d-4943-84cb-31df60bb171a")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0109")
 					(unit 1)
@@ -5060,7 +5060,7 @@
 			(uuid "af962def-9e8b-43c2-9560-f934c6d29d8b")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C44")
 					(unit 1)
@@ -5139,7 +5139,7 @@
 			(uuid "7b400b2e-44a8-4635-9db6-0f234988f468")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0119")
 					(unit 1)
@@ -5218,7 +5218,7 @@
 			(uuid "0a1a8142-5bdc-41b8-b485-c9f0556811eb")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0115")
 					(unit 1)
@@ -5303,7 +5303,7 @@
 			(uuid "aac789a6-3dd6-42b2-8fd5-c82ef8db91ae")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "U10")
 					(unit 1)
@@ -5382,7 +5382,7 @@
 			(uuid "01e9ad7a-2e6d-44d6-9f0a-77ecb146fd52")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0226")
 					(unit 1)
@@ -5618,7 +5618,7 @@
 			(uuid "49f2e83b-815e-4e16-8e79-3be6823e2cf9")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "IC1")
 					(unit 1)
@@ -5698,7 +5698,7 @@
 			(uuid "90c09d04-05f2-4eaf-b5bb-9c0466349de4")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "D4")
 					(unit 1)
@@ -5776,7 +5776,7 @@
 			(uuid "dffb9416-1749-42c0-b55e-8c45460eda50")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0110")
 					(unit 1)
@@ -5853,7 +5853,7 @@
 			(uuid "69060f22-ee1f-4599-8c0a-8338fa446277")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0118")
 					(unit 1)
@@ -5929,7 +5929,7 @@
 			(uuid "4eb3fc7f-a844-4905-8b3c-ab21d32ca46f")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0100")
 					(unit 1)
@@ -6010,7 +6010,7 @@
 			(uuid "bd8f1d68-b069-42e8-93dd-53058752aa3a")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C43")
 					(unit 1)
@@ -6091,7 +6091,7 @@
 			(uuid "cdfa27dc-f1bd-4e3a-98e6-cb365f86f778")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C69")
 					(unit 1)
@@ -6173,7 +6173,7 @@
 			(uuid "cae9fc92-b322-4b12-b2e3-97aaf982a576")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C41")
 					(unit 1)
@@ -6251,7 +6251,7 @@
 			(uuid "32c85352-1074-4c36-846e-d85997964253")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0114")
 					(unit 1)
@@ -6333,7 +6333,7 @@
 			(uuid "9536bb1e-0add-4201-87a4-18bd58585f07")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C40")
 					(unit 1)
@@ -6414,7 +6414,7 @@
 			(uuid "faa6acdd-dac8-4138-9f2f-5d4685c8c8f4")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C39")
 					(unit 1)
@@ -6495,7 +6495,7 @@
 			(uuid "db7de36d-6618-4fca-9cd7-aea7b66156f9")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C61")
 					(unit 1)
@@ -6576,7 +6576,7 @@
 			(uuid "386b0dc5-5e48-453f-8cc3-b2a813d93c54")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "C68")
 					(unit 1)
@@ -6654,7 +6654,7 @@
 			(uuid "947746fa-0389-4a89-9385-9564e5370947")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0101")
 					(unit 1)
@@ -6845,7 +6845,7 @@
 			(uuid "a9f23395-7689-4bd3-b6ab-ba1a3805d014")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "L4")
 					(unit 1)
@@ -6923,7 +6923,7 @@
 			(uuid "8f17a306-9316-4c7c-a371-6e4ba4419618")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "R31")
 					(unit 1)
@@ -7001,7 +7001,7 @@
 			(uuid "337de87a-989c-47a1-9d0e-e241a8e8db9a")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0113")
 					(unit 1)
@@ -7077,7 +7077,7 @@
 			(uuid "48a505f8-d091-470f-bb2d-e0be3b425702")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0112")
 					(unit 1)
@@ -7156,7 +7156,7 @@
 			(uuid "f5766f34-0c0a-4401-9140-5c3e61862b38")
 		)
 		(instances
-			(project "kp-ptr"
+			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/f38dad53-0af4-40f6-a173-e0e37aecb5da"
 					(reference "#PWR0111")
 					(unit 1)

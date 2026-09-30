@@ -2848,7 +2848,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -180)
+				(xyz -90 0 -180)
 			)
 		)
 	)
@@ -2910,7 +2910,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/24cc33d4-0345-4982-8103-53a63e536666")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3261,7 +3261,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0e03ebcd-e291-4f6c-bc34-fa36d050e410")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4029,7 +4029,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2d0abf9c-6c58-4284-9414-182c6ef165ca")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4234,7 +4234,7 @@
 				(xyz 1 1 1.9)
 			)
 			(rotate
-				(xyz 90 -0 -0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -5610,7 +5610,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/3d9c0267-3e7d-4fd3-9100-b679f947577b")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5721,7 +5721,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/4ab65c52-40a5-4d2d-920e-f21b952f3cd1")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5975,7 +5975,7 @@
 		)
 		(path "/d95c7621-9b82-460f-9d64-2ea71660dfc6")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6778,7 +6778,7 @@
 		)
 		(path "/a069c936-1b73-4515-a7dd-c3cee8aa8158")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7804,7 +7804,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4f1274ca-1a6c-4d3f-a67e-a17628c6ce80")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9482,7 +9482,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3ba9b582-4de2-43a4-a79e-70af467a7831")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10184,7 +10184,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1e483cf8-9e9a-4977-b975-9c07821e4ae7")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10416,7 +10416,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3bcac6ab-0e6d-4ad7-b7af-03514127e49a")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12236,7 +12236,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/372e7ab6-a7b8-4584-8ebe-ae4ceea51b7f")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12705,7 +12705,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e4e51866-507a-41fb-8550-98148a84fc00")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13429,7 +13429,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0675de24-b089-42c7-9361-261d22997119")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13826,7 +13826,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bc35207d-1b8c-4995-a83a-f31026da2155")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14926,7 +14926,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8aeca4e1-4955-4b32-b5ea-cdb27edcc702")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15080,7 +15080,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/39ba7414-9648-437f-9ac3-56a3de2ba95b")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16050,7 +16050,7 @@
 		)
 		(path "/4247b454-2825-495d-a5d7-a6d4965d376a")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17152,7 +17152,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f4ad57d-d1b1-4571-8acb-e710e08fa2b6")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17386,7 +17386,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/110ce750-0b6b-4572-b83f-b69947a7115a")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17851,7 +17851,7 @@
 		)
 		(path "/2c33db4f-af1d-4a86-86ba-9b8ded8eb201")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19579,7 +19579,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/351dbaa7-6c0b-41f7-b84d-e52f4aede081")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20792,7 +20792,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/754b6893-1907-4e64-812a-fb1b4644d93e")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21028,7 +21028,7 @@
 		(property ki_fp_filters "Oscillator*SMD*SeikoEpson*TG2520*2.5x2.0mm*")
 		(path "/ffe80208-fc7c-45b5-aac5-b2f7a365353c")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22300,7 +22300,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/588c2806-0d50-4384-86b6-6744251e71b9")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23552,7 +23552,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dd641111-e9a7-4339-9a20-d5393bb11e55")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24415,7 +24415,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/afa777f8-6df8-4749-80c2-02d9c9f2bbbb")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24803,7 +24803,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0596199f-0208-4a4a-b2a9-cad78f83b3c5")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25189,7 +25189,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/0b968d3c-2563-4a21-9c01-33df722d100e")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25639,7 +25639,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8ef1d6c2-9afb-467f-94f0-2a571e5715a1")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25884,7 +25884,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/922c196a-9321-4e47-967d-ac274973ca1e")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26749,7 +26749,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7462020d-9969-4fb8-846b-7dbbcdc062b7")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27146,7 +27146,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eda7ab28-f15e-4843-8b72-b751192c625a")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27614,7 +27614,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c2aff66a-62a8-4aa1-b4d9-790546e6099d")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28665,7 +28665,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2c7c4624-5556-4f0a-9902-0e418133e1f8")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28897,7 +28897,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/38ea82f1-ad4d-4a98-a0f3-343b4871f75e")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32020,7 +32020,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b5b714bb-dca9-4b74-b1a2-26384282585a")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34157,7 +34157,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1c8b30e-923e-4b6d-8cc4-0a742751fceb")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34904,7 +34904,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ff040ea0-3712-4bd9-ae32-97aabd3ceb2c")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35976,7 +35976,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9fcdb267-77a5-4e61-b2de-f64dc52ca3df")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36455,7 +36455,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5514ec80-e941-4b69-84f9-87bcf7b7ed1d")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36687,7 +36687,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/68bd40cf-5e2b-4e7f-92e9-12925f0f0987")
 		(sheetname "/")
-		(sheetfile "kp-ptr.kicad_sch")
+		(sheetfile "PTR_mini_pcb.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37731,7 +37731,7 @@
 		(uuid "5ce06156-d71f-4df3-94f1-96669cd8d0c0")
 	)
 	(gr_text "BOOT"
-		(at 18.17573 28.975013 -0)
+		(at 18.17573 28.975013 0)
 		(layer "F.SilkS")
 		(uuid "e258d465-68f7-400d-82ea-763bd479117b")
 		(effects
@@ -37742,7 +37742,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 18.459064 31.515013 -0)
+		(at 18.459064 31.515013 0)
 		(layer "F.SilkS")
 		(uuid "230e2a80-bf05-4df2-bce3-eede894f218f")
 		(effects
@@ -37764,7 +37764,7 @@
 		)
 	)
 	(gr_text "RX"
-		(at 18.842397 26.435013 -0)
+		(at 18.842397 26.435013 0)
 		(layer "F.SilkS")
 		(uuid "6c81df9e-19d9-47df-b4dc-5171cfe71e1f")
 		(effects
@@ -37775,7 +37775,7 @@
 		)
 	)
 	(gr_text "EN"
-		(at 18.842397 30.245013 -0)
+		(at 18.842397 30.245013 0)
 		(layer "F.SilkS")
 		(uuid "2e08e644-3d1e-444a-a781-423bae196854")
 		(effects
@@ -37786,7 +37786,7 @@
 		)
 	)
 	(gr_text "TX"
-		(at 18.92573 27.705013 -0)
+		(at 18.92573 27.705013 0)
 		(layer "F.SilkS")
 		(uuid "8fd0f403-01b6-45b3-9be2-d0ff79ae7583")
 		(effects
@@ -37914,7 +37914,7 @@
 		)
 	)
 	(gr_text "STAT"
-		(at 9.35 2.35 -0)
+		(at 9.35 2.35 0)
 		(layer "F.SilkS")
 		(uuid "3afdf77a-f368-4f24-a915-b23ca1f7119d")
 		(effects
@@ -38110,7 +38110,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 14.5 67.25 -0)
+		(at 14.5 67.25 0)
 		(layer "B.SilkS")
 		(uuid "ba153bbd-785f-46f7-89e3-2e13a68ae269")
 		(effects

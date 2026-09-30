@@ -30,10 +30,10 @@ permissions:
   contents: read
 
 env:
-  SCH: ./PCB_project/kp-ptr.kicad_sch
-  PCB: ./PCB_project/kp-ptr.kicad_pcb
-  SYM_LIBS: "symbol-library=./PCB_project/KP-PTR_lib.kicad_sym"
-  FP_LIBS: "footprint-library=./PCB_project/KP-PTR_lib.pretty"
+  SCH: ./PTR_mini_pcb/PTR_mini_pcb.kicad_sch
+  PCB: ./PTR_mini_pcb/PTR_mini_pcb.kicad_pcb
+  SYM_LIBS: "symbol-library=./PTR_mini_pcb/KP-PTR_lib.kicad_sym"
+  FP_LIBS: "footprint-library=./PTR_mini_pcb/KP-PTR_lib.pretty"
   
 
 jobs:
@@ -114,10 +114,10 @@ jobs:
           (cd gerbers && zip -r "../dist/PTR_mini_gerbers_${VERSION}.zip" .)
 
           # Ready-made JLCPCB production files committed in the repo
-          if [ -d PCB_project/jlcpcb ] && [ -n "$(ls -A PCB_project/jlcpcb)" ]; then
-            (cd PCB_project/jlcpcb && zip -r "../../dist/PTR_mini_jlcpcb_${VERSION}.zip" .)
+          if [ -d PTR_mini_pcb/jlcpcb ] && [ -n "$(ls -A PTR_mini_pcb/jlcpcb)" ]; then
+            (cd PTR_mini_pcb/jlcpcb && zip -r "../../dist/PTR_mini_jlcpcb_${VERSION}.zip" .)
           else
-            echo "::error::PCB_project/jlcpcb/ directory is missing or empty"
+            echo "::error::PTR_mini_pcb/jlcpcb/ directory is missing or empty"
             exit 1
           fi
 

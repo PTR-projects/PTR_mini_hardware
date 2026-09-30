@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "kp-ptr.kicad_prl",
+    "filename": "PTR_mini_pcb.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -91,18 +91,18 @@
       11
     ],
     "col_widths": [
-      100,
-      122,
-      192,
-      186,
-      201,
-      178,
-      187,
-      156,
+      50,
       61,
-      63,
-      66,
-      64
+      96,
+      93,
+      101,
+      89,
+      94,
+      78,
+      31,
+      32,
+      33,
+      32
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

@@ -529,7 +529,7 @@
     ]
   },
   "meta": {
-    "filename": "kp-ptr.kicad_pro",
+    "filename": "PTR_mini_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -587,7 +587,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "kp-ptr.step",
+      "step": "PTR_mini_pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -712,8 +712,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "kp-ptr.kicad_sch",
-        "name": "kp-ptr",
+        "filename": "PTR_mini_pcb.kicad_sch",
+        "name": "PTR_mini_pcb",
         "uuid": "9538e4ed-27e6-4c37-b989-9859dc0d49e8"
       }
     ],
