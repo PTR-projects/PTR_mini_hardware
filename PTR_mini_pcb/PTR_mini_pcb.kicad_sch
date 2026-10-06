@@ -4761,7 +4761,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_CS_FLASH"
+	(global_label "SPI_CS_FLASH"
 		(shape input)
 		(at 105.41 87.63 180)
 		(fields_autoplaced yes)
@@ -4773,7 +4773,7 @@
 		)
 		(uuid "700b1278-c98a-471f-9428-3fbbddd89cf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.971 87.63 0)
+			(at 89.1805 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
