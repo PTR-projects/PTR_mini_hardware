@@ -2407,6 +2407,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KP-PTR_lib:XRCGB40M000F4M00R0"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XRCGB40M000F4M00R0"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+				(at 1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Three pin crystal, GND on pin 2, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XRCGB40M000F4M00R0_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XRCGB40M000F4M00R0_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -2520,192 +2731,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Oscillator:TG2520SMN-xx.xxxxxxMhz-xxxxNM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -5.08 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TG2520SMN-xx.xxxxxxMhz-xxxxNM"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
-				(at 11.43 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
-				(at -2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Crystal Oscillator Low Profile / High Stability TCXO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*TG2520*2.5x2.0mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TG2520SMN-xx.xxxxxxMhz-xxxxNM_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635) (xy -0.635 0.635) (xy -0.635 -0.635) (xy 0 -0.635)
-						(xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TG2520SMN-xx.xxxxxxMhz-xxxxNM_1_1"
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "Vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3132,6 +3157,12 @@
 		(uuid "44dd6a46-36ac-4636-ac01-76d1effab702")
 	)
 	(junction
+		(at 254 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7bf45f-b0cd-4e3e-b615-31ef81385b23")
+	)
+	(junction
 		(at 105.41 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3180,6 +3211,12 @@
 		(uuid "a4b9bee7-cdf0-40c6-a700-eae01305ee46")
 	)
 	(junction
+		(at 241.3 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33f8aad-b0f3-42d2-9708-6db75fe1753f")
+	)
+	(junction
 		(at 212.09 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3222,12 +3259,6 @@
 		(uuid "e0869489-dcba-4435-b2fa-1265536b8621")
 	)
 	(junction
-		(at 201.93 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2bf999d-c044-43f1-8c70-f69f491ad4cb")
-	)
-	(junction
 		(at 64.77 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3264,16 +3295,6 @@
 	(no_connect
 		(at 171.45 67.31)
 		(uuid "d40fb3a9-57b5-4038-b8e5-98260f5738ab")
-	)
-	(wire
-		(pts
-			(xy 201.93 120.65) (xy 201.93 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f93932-2101-4eb1-a5a1-06237e0d0105")
 	)
 	(wire
 		(pts
@@ -3357,16 +3378,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 120.65) (xy 201.93 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c7f7be-7eaf-4d52-b006-251455c801be")
-	)
-	(wire
-		(pts
 			(xy 105.41 85.09) (xy 109.22 85.09)
 		)
 		(stroke
@@ -3424,16 +3435,6 @@
 			(type default)
 		)
 		(uuid "29bc2bac-1b3b-42d8-a504-88cd23eda090")
-	)
-	(wire
-		(pts
-			(xy 171.45 124.46) (xy 190.5 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e499074-31de-4cd3-8c63-daccf6e7cf4f")
 	)
 	(wire
 		(pts
@@ -3707,6 +3708,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 124.46) (xy 245.11 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3379d3-d60c-4267-acf8-da4616d6eb7c")
+	)
+	(wire
+		(pts
 			(xy 19.05 104.14) (xy 22.225 104.14)
 		)
 		(stroke
@@ -3777,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 133.35) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79834828-4e7c-4d45-bdee-de8f29fce7a8")
+	)
+	(wire
+		(pts
 			(xy 105.41 111.76) (xy 109.22 111.76)
 		)
 		(stroke
@@ -3787,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.65) (xy 171.45 120.65)
+			(xy 171.45 120.65) (xy 254 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3844,6 +3865,16 @@
 			(type default)
 		)
 		(uuid "8525bb91-de1b-4e19-9591-07fc7439b42a")
+	)
+	(wire
+		(pts
+			(xy 250.19 124.46) (xy 254 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8592e134-615c-416a-aaea-c83309635a66")
 	)
 	(wire
 		(pts
@@ -3904,6 +3935,16 @@
 			(type dash)
 		)
 		(uuid "9cbc9460-a7a7-4949-82ff-9896d2241c5b")
+	)
+	(wire
+		(pts
+			(xy 171.45 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d122f36-f47b-499b-b0b7-1f7ac54c6a0b")
 	)
 	(wire
 		(pts
@@ -4057,16 +4098,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 228.6 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e4ace1-de95-46a1-82b6-7a52761fcc6f")
-	)
-	(wire
-		(pts
 			(xy 105.41 120.65) (xy 105.41 118.11)
 		)
 		(stroke
@@ -4107,16 +4138,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 124.46) (xy 201.93 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce49fa2d-8837-43b3-b335-50ba5141c374")
-	)
-	(wire
-		(pts
 			(xy 109.22 130.81) (xy 105.41 130.81)
 		)
 		(stroke
@@ -4124,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "d066a396-1568-4c18-8ac2-0be0b36464b1")
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46) (xy 241.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2987b3a-f84d-45ef-8b1b-f0b7aa8cf39e")
 	)
 	(wire
 		(pts
@@ -4294,6 +4325,16 @@
 			(type default)
 		)
 		(uuid "faa3cff8-4fab-495a-b009-6dc21003f0f0")
+	)
+	(wire
+		(pts
+			(xy 254 120.65) (xy 254 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd051e6d-23da-4fdd-afb5-2b3634ebcc19")
 	)
 	(wire
 		(pts
@@ -6095,6 +6136,91 @@
 		)
 	)
 	(symbol
+		(lib_id "KP-PTR_lib:XRCGB40M000F4M00R0")
+		(at 247.65 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17d51d9d-7cf8-43de-bfb0-dd92eb56620f")
+		(property "Reference" "Y3"
+			(at 247.396 117.348 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XTM20040000FT00351001"
+			(at 248.412 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+			(at 248.92 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Three pin crystal, GND on pin 2, small symbol"
+			(at 247.65 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08b340d3-dc0e-42eb-b7e3-80aa0e2f269f")
+		)
+		(pin "3"
+			(uuid "715c0d12-b422-4133-bc8d-a0c4c3a5060c")
+		)
+		(pin "1"
+			(uuid "63b49155-d98a-4796-a717-cade59291594")
+		)
+		(pin "4"
+			(uuid "a398503c-35f3-4cd9-8c43-80a2795952e3")
+		)
+		(instances
+			(project "PTR_mini_pcb"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(reference "Y3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 64.77 270)
 		(unit 1)
@@ -6325,6 +6451,84 @@
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 247.65 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f8a198-b7b0-4267-87af-f05ca3e2b155")
+		(property "Reference" "#PWR019"
+			(at 247.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 247.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "187ab1dc-a129-4013-8799-9fd878020e8d")
+		)
+		(instances
+			(project "PTR_mini_pcb"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8231,87 +8435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 236.22 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "588c2806-0d50-4384-86b6-6744251e71b9")
-		(property "Reference" "C24"
-			(at 240.03 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 240.03 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 237.1852 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d5c47ee-fc4b-4484-ad22-de69b7c5b6a0")
-		)
-		(pin "2"
-			(uuid "167e4652-be8d-4961-8a91-159c444660bb")
-		)
-		(instances
-			(project "PTR_mini_pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 151.13 191.77 0)
 		(unit 1)
@@ -8547,82 +8670,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 236.22 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "600dc20a-e037-4bb9-b60c-6fea08ab46e5")
-		(property "Reference" "#PWR046"
-			(at 236.22 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 236.22 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81e3d5c4-9de3-4cc6-b9b4-40198c540dfa")
-		)
-		(instances
-			(project "PTR_mini_pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 160.02 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -8769,84 +8816,6 @@
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 236.22 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66395742-0d30-4bab-8a8b-647f75f9f634")
-		(property "Reference" "#PWR017"
-			(at 236.22 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 236.22 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84514d0d-c4b5-4f6a-a607-e18d0f1263e3")
-		)
-		(instances
-			(project "PTR_mini_pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9240,6 +9209,84 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 254 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce2e223-5246-4c19-93b2-e12e8552c16d")
+		(property "Reference" "#PWR056"
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 254 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e4b575f-f7e6-4473-819e-1344f654e89c")
+		)
+		(instances
+			(project "PTR_mini_pcb"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 143.51 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -9473,18 +9520,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 186.69 120.65 90)
+		(lib_id "Device:L")
+		(at 184.15 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8aeca4e1-4955-4b32-b5ea-cdb27edcc702")
-		(property "Reference" "C26"
-			(at 189.738 119.38 90)
+		(dnp no)
+		(uuid "8d50e150-2ab3-4c5e-a75d-cce648928362")
+		(property "Reference" "L3"
+			(at 184.404 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9493,8 +9540,8 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 190.246 121.92 90)
+		(property "Value" "24nH"
+			(at 184.15 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9503,8 +9550,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 190.5 119.6848 0)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 184.15 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,7 +9562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 120.65 0)
+			(at 184.15 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +9573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 120.65 0)
+			(at 184.15 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9536,15 +9583,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b856145-c89e-455e-a670-d9d954643ac7")
+			(uuid "59ceb7a6-8353-4a4e-9b44-598a2163d3f9")
 		)
 		(pin "2"
-			(uuid "7b006917-c167-4fa8-b40b-a99d2457edd3")
+			(uuid "a858eea5-aa00-4939-87a6-2a60cbd99197")
 		)
 		(instances
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "C26")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -9706,6 +9753,86 @@
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96b08e3a-0258-42b3-9dd6-80d007936d9a")
+		(property "Reference" "C10"
+			(at 255.016 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15pF"
+			(at 254.762 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254.9652 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "342adb11-dd62-49fe-a432-466c7663b961")
+		)
+		(pin "2"
+			(uuid "7fc6e269-260c-49c3-b5d9-6d769591fb5f")
+		)
+		(instances
+			(project "PTR_mini_pcb"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10121,82 +10248,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 236.22 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5f0a15c-cbda-490f-8301-6c1eca8f8719")
-		(property "Reference" "#PWR041"
-			(at 236.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 236.22 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6420c7c8-a24a-44d9-a88e-920d163b8037")
-		)
-		(instances
-			(project "PTR_mini_pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 29.845 168.275 0)
 		(unit 1)
 		(body_style 1)
@@ -10267,84 +10318,6 @@
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 194.31 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afa777f8-6df8-4749-80c2-02d9c9f2bbbb")
-		(property "Reference" "C25"
-			(at 197.358 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10nF"
-			(at 197.866 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 198.12 123.4948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a640f4e-da3e-4608-a30b-a393e9866151")
-		)
-		(pin "2"
-			(uuid "e6e8500d-275c-4a99-99fa-584b89fe6bc2")
-		)
-		(instances
-			(project "PTR_mini_pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10668,8 +10641,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 236.22 151.13 0)
+		(lib_id "Device:C")
+		(at 241.3 128.27 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10677,32 +10650,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2e55040-23b2-477e-97b4-37871aaa9a10")
-		(property "Reference" "#PWR055"
-			(at 236.22 157.48 0)
-			(hide yes)
+		(uuid "d05435de-fee3-4374-ab04-32e05a79bf27")
+		(property "Reference" "C9"
+			(at 236.22 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Earth"
-			(at 236.22 154.94 0)
-			(hide yes)
+		(property "Value" "15pF"
+			(at 236.22 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 236.22 151.13 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 240.3348 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +10685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 151.13 0)
+			(at 241.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +10696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 151.13 0)
+			(at 241.3 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10734,12 +10706,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "47d17beb-b078-4878-99d1-c628df91c9f5")
+			(uuid "adc27df5-e0aa-4021-ab1d-bc844b0d9614")
+		)
+		(pin "2"
+			(uuid "fced2f47-0f80-4fdc-b7ac-f0c6540f42ce")
 		)
 		(instances
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR055")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11372,6 +11347,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 241.3 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f46846e2-ee45-4097-9fb4-928f66273004")
+		(property "Reference" "#PWR018"
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 241.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a64883b-999d-4e13-b720-614b0763c191")
+		)
+		(instances
+			(project "PTR_mini_pcb"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 217.17 57.15 270)
 		(unit 1)
@@ -11444,94 +11497,6 @@
 			(project "PTR_mini_pcb"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:TG2520SMN-xx.xxxxxxMhz-xxxxNM")
-		(at 236.22 124.46 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ffe80208-fc7c-45b5-aac5-b2f7a365353c")
-		(property "Reference" "Y2"
-			(at 242.57 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "X1G0054210307"
-			(at 242.57 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
-			(at 224.79 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
-			(at 238.76 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Crystal Oscillator Low Profile / High Stability TCXO"
-			(at 236.22 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ce405cb-3ef3-4372-8c65-e4a748de90a3")
-		)
-		(pin "4"
-			(uuid "af83e4dd-295c-4811-84ba-d2c6a4f5349a")
-		)
-		(pin "3"
-			(uuid "b200a7d0-8455-4097-93b0-4ebab45485ff")
-		)
-		(pin "1"
-			(uuid "781564cd-26ec-45d5-ac70-d1189f991197")
-		)
-		(instances
-			(project "PTR_mini_pcb"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
