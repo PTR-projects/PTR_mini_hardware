@@ -4980,7 +4980,7 @@
 		(fields_autoplaced yes)
 		(uuid "835aef12-4bff-4866-8baa-53c89c7073f7")
 		(property "Reference" "U13"
-			(at 82.0294 115.57 0)
+			(at 82.1533 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4990,8 +4990,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q256"
-			(at 82.0294 118.11 0)
+		(property "Value" "GD25Q256EWIGR"
+			(at 82.1533 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
