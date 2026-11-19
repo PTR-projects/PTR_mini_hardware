@@ -3613,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Value" "RB522ES-30T15R"
+		(property "Value" "CD0603-B0340R"
 			(at 46.228 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Value" "RB522ES-30T15R"
+		(property "Value" "CD0603-B0340R"
 			(at 46.228 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Value" "RB522ES-30T15R"
+		(property "Value" "CD0603-B0340R"
 			(at 46.228 164.338 0)
 			(show_name no)
 			(do_not_autoplace no)
