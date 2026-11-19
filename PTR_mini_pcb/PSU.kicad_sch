@@ -2598,7 +2598,7 @@
 	)
 	(text "VBAT divider"
 		(exclude_from_sim no)
-		(at 28.575 83.185 0)
+		(at 27.94 83.185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,7 +2660,7 @@
 		(uuid "20e80abd-6859-4d05-b010-5b9b7a70b702")
 	)
 	(junction
-		(at 32.385 97.79)
+		(at 31.75 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22a7cf69-c01a-46ab-9187-7372dd365a53")
@@ -2714,7 +2714,7 @@
 		(uuid "6eaa116c-abb8-48cb-95dc-1ed47e9ece2c")
 	)
 	(junction
-		(at 48.26 97.79)
+		(at 47.625 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "841afa25-94f9-4af1-a285-0e27e943a2c4")
@@ -2915,7 +2915,7 @@
 	)
 	(polyline
 		(pts
-			(xy 27.305 80.01) (xy 27.305 111.76)
+			(xy 26.67 80.01) (xy 26.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 97.79) (xy 48.26 97.79)
+			(xy 45.085 97.79) (xy 47.625 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3045,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 32.385 97.79) (xy 38.1 97.79)
+			(xy 31.75 97.79) (xy 37.465 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 57.785 97.79)
+			(xy 47.625 97.79) (xy 57.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3275,7 @@
 	)
 	(polyline
 		(pts
-			(xy 27.305 80.01) (xy 74.295 80.01)
+			(xy 26.67 80.01) (xy 73.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3365,7 +3365,7 @@
 	)
 	(polyline
 		(pts
-			(xy 74.295 111.76) (xy 27.305 111.76)
+			(xy 73.66 111.76) (xy 26.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3375,7 +3375,7 @@
 	)
 	(polyline
 		(pts
-			(xy 74.295 80.01) (xy 74.295 111.76)
+			(xy 73.66 80.01) (xy 73.66 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3395,7 @@
 	)
 	(global_label "VBAT_MEAS"
 		(shape input)
-		(at 57.785 97.79 0)
+		(at 57.15 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3405,7 +3405,7 @@
 		)
 		(uuid "6e4e3747-cdbd-4825-b889-daa5837c94ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.4791 97.7106 0)
+			(at 69.8441 97.7106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3419,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 97.79 90)
+		(at 41.275 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3429,7 +3429,7 @@
 		(dnp no)
 		(uuid "0bae5ae7-8423-4396-8155-8b7564351343")
 		(property "Reference" "R32"
-			(at 43.18 100.33 90)
+			(at 42.545 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3439,7 +3439,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 42.037 97.79 90)
+			(at 41.402 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3449,7 +3449,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 99.568 90)
+			(at 41.275 99.568 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 97.79 0)
+			(at 41.275 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3471,7 +3471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 97.79 0)
+			(at 41.275 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4438,7 +4438,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 32.385 101.6 0)
+		(at 31.75 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4448,7 +4448,7 @@
 		(dnp no)
 		(uuid "501992b5-b8b1-4742-aa03-cb1dabac6355")
 		(property "Reference" "R33"
-			(at 29.845 102.87 90)
+			(at 29.21 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,7 +4458,7 @@
 			)
 		)
 		(property "Value" "10k 1%"
-			(at 34.925 102.87 90)
+			(at 34.29 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.607 101.6 90)
+			(at 29.972 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +4479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 32.385 101.6 0)
+			(at 31.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,7 +4490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.385 101.6 0)
+			(at 31.75 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4782,7 +4782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.7748 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4863,7 +4863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.0248 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4912,7 +4912,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 32.385 90.17 0)
+		(at 31.75 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4922,7 +4922,7 @@
 		(dnp no)
 		(uuid "6c69ce45-7af5-406c-8c03-7e62d133f827")
 		(property "Reference" "#PWR0109"
-			(at 32.385 93.98 0)
+			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4933,7 +4933,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 32.385 86.36 0)
+			(at 31.75 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4943,7 +4943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.385 90.17 0)
+			(at 31.75 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4954,7 +4954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 32.385 90.17 0)
+			(at 31.75 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.385 90.17 0)
+			(at 31.75 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5021,7 +5021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.9048 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5971,7 +5971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 188.2648 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +6123,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF 6V3"
+		(property "Value" "10uF"
 			(at 186.69 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +6134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.9148 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +6183,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 48.26 105.41 0)
+		(at 47.625 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6194,7 +6194,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc24c66a-db3a-4a10-b767-251c0c15c20d")
 		(property "Reference" "#PWR0114"
-			(at 48.26 111.76 0)
+			(at 47.625 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +6205,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 48.26 109.22 0)
+			(at 47.625 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +6216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 105.41 0)
+			(at 47.625 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6227,7 +6227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 105.41 0)
+			(at 47.625 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +6238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 105.41 0)
+			(at 47.625 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6343,7 +6343,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 101.6 0)
+		(at 47.625 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6354,7 +6354,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1fc4233-996a-45af-b04d-442558cec140")
 		(property "Reference" "C39"
-			(at 51.435 100.3299 0)
+			(at 50.8 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6365,7 +6365,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 51.435 102.8699 0)
+			(at 50.8 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6376,7 +6376,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.2252 105.41 0)
+			(at 48.5902 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 101.6 0)
+			(at 47.625 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,7 +6398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 101.6 0)
+			(at 47.625 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6537,7 +6537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 221.2848 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6855,7 +6855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 32.385 93.98 0)
+		(at 31.75 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6865,7 +6865,7 @@
 		(dnp no)
 		(uuid "ebfd6638-c4a6-4b93-8160-3b3910e87fd4")
 		(property "Reference" "R31"
-			(at 29.845 95.25 90)
+			(at 29.21 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6875,7 +6875,7 @@
 			)
 		)
 		(property "Value" "100k 1%"
-			(at 34.925 92.71 90)
+			(at 34.29 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6885,7 +6885,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.607 93.98 90)
+			(at 29.972 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 32.385 93.98 0)
+			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6907,7 +6907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.385 93.98 0)
+			(at 31.75 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6933,7 +6933,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 32.385 105.41 0)
+		(at 31.75 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6944,7 +6944,7 @@
 		(fields_autoplaced yes)
 		(uuid "f467f7da-d51b-405e-8c73-d621186f5564")
 		(property "Reference" "#PWR0113"
-			(at 32.385 111.76 0)
+			(at 31.75 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +6955,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 32.385 109.22 0)
+			(at 31.75 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,7 +6966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.385 105.41 0)
+			(at 31.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6977,7 +6977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 32.385 105.41 0)
+			(at 31.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6988,7 +6988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.385 105.41 0)
+			(at 31.75 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

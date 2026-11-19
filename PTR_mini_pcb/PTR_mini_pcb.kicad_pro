@@ -77,7 +77,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|3800000|10866800|a32f0190-163b-4c02-8959-ab1ac895bac2|178c827f-8143-46bf-93a8-5edaa9b753a2",
+          ""
+        ],
+        [
+          "hole_clearance|3800000|11066800|0c8de869-b034-4926-a950-36bfdd3be773|178c827f-8143-46bf-93a8-5edaa9b753a2",
+          ""
+        ],
+        [
+          "hole_clearance|3800000|5266800|3867d906-1d98-4538-9dcc-e39bb2f069a2|759b1341-6bb5-4211-976f-14fb013126cd",
+          ""
+        ],
+        [
+          "hole_clearance|3800000|5466800|ca32ef26-6cb0-45da-bce6-05e72015839b|759b1341-6bb5-4211-976f-14fb013126cd",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -185,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 0.7,
           "td_length_ratio": 0.3,
           "td_maxheight": 2.0,
@@ -196,6 +214,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 0.7,
           "td_length_ratio": 0.3,
           "td_maxheight": 2.0,
@@ -207,6 +226,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 0.7,
           "td_length_ratio": 0.3,
           "td_maxheight": 2.0,
@@ -506,6 +526,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -575,8 +596,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -717,7 +738,7 @@
         "uuid": "9538e4ed-27e6-4c37-b989-9859dc0d49e8"
       }
     ],
-    "used_designators": "J3,J5,J14,R14,R18,R20-22,R24,R44,R59-60,R64,R66,R73-74,R78,R83-84,L3,#PWR17-19,#PWR32,#PWR37,#PWR41,#PWR46,#PWR55-56,#PWR75,#PWR125,#PWR203-204,#PWR228-236,C9-10,C24-26,C59-60,C66,Y2-3",
+    "used_designators": "#PWR17-19,#PWR32,#PWR37,#PWR41,#PWR46,#PWR55-56,#PWR75,#PWR125,#PWR127-129,#PWR174,#PWR177-178,#PWR203-204,#PWR228-236,C9-10,C24-26,C46,C59-60,C66,D1-2,D5,J3,J5,J14,L3,R14,R18,R20-24,R34-37,R44,R59-60,R63-66,R68-70,R73-74,R77-78,R83-84,Y2-3",
     "variants": []
   },
   "sheets": [
